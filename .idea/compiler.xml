@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="kr.ac.jejunu.ac.kr.UserDAO.main" target="1.8" />
+      <module name="kr.ac.jejunu.ac.kr.UserDAO.test" target="1.8" />
+      <module name="kr.ac.jejunu.portalservice.main" target="1.8" />
+      <module name="kr.ac.jejunu.portalservice.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
