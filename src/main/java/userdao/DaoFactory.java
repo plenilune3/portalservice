@@ -27,8 +27,8 @@ public class DaoFactory {
     }
 
     @Bean
-    public JdbcContext jbdcContext() {
-        return new JdbcContext(dataSource());
+    public JejuJdbcTemplate jbdcContext() {
+        return new JejuJdbcTemplate(dataSource());
     }
 
     @Bean
