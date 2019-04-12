@@ -20,9 +20,15 @@ public class DaoFactory {
     @Value("${db.username}")
     private String username;
 
+
     @Bean
     public UserDao userDao() {
-        return new UserDao(dataSource());
+        return new UserDao(jbdcContext());
+    }
+
+    @Bean
+    public JdbcContext jbdcContext() {
+        return new JdbcContext(dataSource());
     }
 
     @Bean
